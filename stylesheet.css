@@ -1,0 +1,47 @@
+body{
+	background-color: black;
+	color: white;	
+}
+
+h1 {
+	color: #1877F2;
+	text-align: center;
+}
+
+p {
+	color: #FFFF00
+}
+
+body > p {
+	color: white
+}
+
+body p {
+	color: yellow;
+	text-align: center
+}
+
+body > h2 {
+	text-align: center;
+	color: green;
+}
+
+body > div > p {
+	color: blue;
+}
+
+ol ol {
+	list-style-type: lower-roman;
+}
+
+ol ol ol {
+	list-style-type: upper-roman;
+}
+
+body p.Special {
+	background-color: red;
+}
+
+.classAnywhere {
+	background-color: red;
+}
